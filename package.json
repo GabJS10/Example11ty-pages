@@ -1,0 +1,20 @@
+{
+  "name": "11ty",
+  "version": "1.0.0",
+  "main": ".eleventy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"npx @11ty/eleventy --serve --port 7777",
+    "clean": "rm -rf docs",
+    "deploy": "npx @11ty/eleventy --pathprefix=/",
+    "deploy-subdomain": "npx @11ty/eleventy --pathprefix=/Example11ty-pages/"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}
